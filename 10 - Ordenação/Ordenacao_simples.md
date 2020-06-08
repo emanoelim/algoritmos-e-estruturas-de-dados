@@ -52,11 +52,11 @@ T(n) = n + (n - 1) + (n - 2) + … + 3 +  2 + 1
 
 Então 2T(n) é:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/soma_1.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/soma_1.png)
 
 Que pode ser reescrito da seguinte forma, usando o truque de Gauss:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/soma_2.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/soma_2.png)
 
 Logo:
 
