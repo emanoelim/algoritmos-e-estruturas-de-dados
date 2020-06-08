@@ -56,7 +56,7 @@ valores distintos sempre sejam gerados.
 
 A figura abaixo mostra a diferença no cálculo das posições entre a sondagem linear e quadrática:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/linear_x_quadratica.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/linear_x_quadratica.png)
 
 Fonte da imagem: Lucas Antiqueira, "Métodos de busca: Hashing", Slide disciplina de Introdução à Ciência da Computação II, disponível em: http://wiki.icmc.usp.br/images/4/44/SCC0601-2oSem2011-Lucas-Slides12.pdf
 
@@ -130,7 +130,7 @@ Perceba que a desvantagem dessa implementação é que ela não remove os itens 
 Em vez de procurar uma posição vaga, cada posição do vetor guarda o início de uma lista encadeada. Todas as colisões, ou seja, 
 todas as chaves mapeadas para uma mesma posição, são guardadas em uma lista. Exemplo:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/hash_lista_encadeada.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/hash_lista_encadeada.png)
 
 Para a inserção, o pior caso será O(1): calcula-se a posição onde o item será inserido e, mesmo que já existam itens na lista 
 encadeada daquela posição, o novo item pode ser inserido no começo da lista a um custo constante. 
