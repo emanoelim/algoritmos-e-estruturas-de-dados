@@ -26,7 +26,7 @@ main() {
 
 Ilustrando, teríamos:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/ponteiro_para_ponteiro.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/ponteiro_para_ponteiro.png)
 
 - Ao acessar p2, tenho 1000 (endereço apontado por p2);
 - Ao acessar *p2, tenho 1004 (o endereço apontado por p1);
