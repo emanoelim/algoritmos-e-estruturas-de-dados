@@ -8,7 +8,7 @@ int *p = malloc(n * sizeof(int));
 
 aloca memória para um vetor de inteiros. Ou seja, *p aponta para o primeiro elemento de um vetor de int:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/vetor_dinamico.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/vetor_dinamico.png)
 
 E o que dizer se tivermos a declaração abaixo?
 
@@ -19,12 +19,12 @@ int **p;
 Significa que temos um ponteiro para ponteiro. Pensando em um vetor, teremos um vetor onde cada elemento do vetor aponta para um 
 endereço:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/vetor_de_ponteiros.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/vetor_de_ponteiros.png)
 
 Sabemos que uma matriz é um vetor de vetores. Se fizermos cada ponteiro do vetor int* acima apontar para um vetor de inteiros 
 em vez de apontar para uma única variável, o resultado será uma matriz:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/matriz_dinamica.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/matriz_dinamica.png)
 
 # Alocando uma matriz dinamicamente em C
 
