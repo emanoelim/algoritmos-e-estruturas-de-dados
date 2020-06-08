@@ -11,7 +11,7 @@ Se o tamanho máximo fosse menor do que o utilizado, faltaria memória.
 Uma solução a estes problemas, é implementar uma lista encadeada (*linked list*). Uma lista encadeada é uma sequência de células: 
 cada célula contém um item e um ponteiro com o endereço da próxima célula. 
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/lista_encadeada_mem.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/lista_encadeada_mem.png)
 
 Como cada célula contém um ponteiro para a próxima, as células não precisam estar em posições contíguas na memória. Elas podem ser 
 alocadas dinamicamente conforme a necessidade, ou seja: não é mais necessário definir um tamanho máximo para a lista no momento da 
@@ -46,7 +46,7 @@ struct lista {
 
 A estrutura lista contém um ponteiro que terá o endereço da primeira célula da lista (poderia também guardar um ponteiro para a último e guardar outros atributos da lista, como tamanho). Podemos  então visualizar  a lista da seguinte forma:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/representa%C3%A7%C3%A3o_lista_encadeada.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/representa%C3%A7%C3%A3o_lista_encadeada.png)
 
 ### Criação de lista vazia
 
@@ -54,7 +54,7 @@ Uma vez definida a estrutura a ser usada, pode ser implementada a função para 
 não temos um endereço para o qual “primeira” deve apontar. Assim, podemos fazer “primeira” receber um ponteiro nulo 
 (que não aponta para nada). Em C, existe o NULL.
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/lista_vazia.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/lista_vazia.png)
 
 Pensando nisso, um exemplo de função para criar uma lista vazia seria:
 
@@ -87,11 +87,11 @@ A inserção de itens em uma lista pode ser feita no início da lista, no meio d
 fazer a nova célula apontar aquela que era a primeira (por enquanto é NULL) e então fazer com que “primeira” aponte para nova 
 célula. Vamos manter o ponteiro NULL, pois ele indicará o término da lista.
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/inser%C3%A7%C3%A3o_inicio_lista_vazia_1.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/inser%C3%A7%C3%A3o_inicio_lista_vazia_1.png)
 
 e assim por diante:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/inser%C3%A7%C3%A3o_inicio_lista_vazia_2.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/inser%C3%A7%C3%A3o_inicio_lista_vazia_2.png)
 
 ```c
 void insere_inicio_lista(Lista *l, int chave) {
@@ -111,7 +111,7 @@ void insere_inicio_lista(Lista *l, int chave) {
 **Inserção no fim**: considerando que a lista não está vazia, a nova célula deve ser inserida após a última, que agora vai 
 apontar para a nova célula, que por sua vez aponta para NULL:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/inser%C3%A7%C3%A3o_fim_lista.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/inser%C3%A7%C3%A3o_fim_lista.png)
 
 Caso a lista esteja vazia, quem deve apontar para a nova célula é a primeira (teremos uam inserção no início).
 
@@ -139,7 +139,7 @@ void insere_fim_lista(Lista *l, int chave) {
 quisermos inserir uma nova célula após uma célula x, será preciso encontrar a célula x, ligar a célula x à nova célula, e 
 ligar a nova célula naquela que estava ligada à célula x.
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/inser%C3%A7%C3%A3o_meio_lista.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/inser%C3%A7%C3%A3o_meio_lista.png)
 
 O mais comum é fazer uma inserção após um item que contém determinada chave. Assim, convém criar uma função que busca a célula 
 que contém o item com essa chave, para que o novo item seja inserido após essa célula:
