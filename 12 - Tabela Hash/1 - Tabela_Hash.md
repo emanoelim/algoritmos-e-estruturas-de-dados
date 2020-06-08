@@ -51,7 +51,7 @@ A chave é interpretada como uma sequência de dígitos escrita em um papel. Enq
 o papel vai sendo dobrado ao meio e os dígitos que se sobrepõe são somados sem levar em consideração o “vai um”. 
 Calcula-se o resto da divisão da soma pela tabela para usar como chave:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/hash_dobra.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/hash_dobra.png)
 
 Fonte da imagem: Backes, André Ricardo, Estruturas de dados descomplicada: em linguagem C, 1ª ed., Rio de Janeiro: Elsevier, 2016.
 
@@ -77,7 +77,7 @@ A função é construída da seguinte forma:
 3. Selecionar aleatoriamente uma sequencia de r + 1 números entre 0 e m - 1 (a0, a1, …, ar).
 4. A família de funções de hashing é dada por:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/hash_universal.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/hash_universal.png)
 
 Veja aqui uma estratégia para gerar números primos para utilziar na função: 
 https://www.geeksforgeeks.org/primality-test-set-2-fermet-method/
@@ -118,7 +118,7 @@ dados para fazer o tratamento destas colisões. Este será o caso da maioria das
 Abaixo é apresentada uma implementação de tabela hash em C. Esta é uma é uma implementação bem simples, que não trata colisões. 
 Ela tem como objetivo passar um entendimento sobre o mapeamento de chaves em posições. A estrutura usada será a seguinte:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/estrutura_implementacao_hash.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/estrutura_implementacao_hash.png)
 
 Em C ela pode ser representada por:
 ```c
