@@ -26,18 +26,18 @@ usando arranjos/vetores.
 
 Antes de partirmos para códigos é preciso analisar alguns pontos. Como a operação de desenfileirar consiste em remover o primeiro item da fila, seria muito ineficiente ficar deslocando todos os itens da fila para à esquerda toda vez que um item precisar ser desenfileirado. Desta forma, em vez de faze esse deslocamento, vamos criar uma estrutura que mantém as informações do primeiro e do último. Teremos uma fila como ilustrado na figura abaixo:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/fila_primeiro_ultimo.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/fila_primeiro_ultimo.png)
 
 Por causa da característica da fila, a operação de enfileirar faz aumentar a parte de trás da fila, enquanto a operação desenfileirar faz contrair a parte da frente da fila. Desta forma, a fila tende a caminhar pela memória, ocupando espaço da parte de trás e descartando espaço da parte da frente. Isso faz com que em poucas operações a fila vá ao encontro do limite de memória reservado para ela. 
 
 Exemplo de uma fila contendo 3 itens e com capacidade máxima de 6 itens.
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/ocupa%C3%A7%C3%A3o_fila.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/ocupa%C3%A7%C3%A3o_fila.png)
 
 A fila fica inutilizável pois seu limite foi atingido, apesar de termos posições vazias na parte da frente da fila.  Uma solução 
 para este inconveniente é imaginar a fila com um círculo:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/fila_circular.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/fila_circular.png)
 
 Fonte da imagem: Nívio Ziviani, Projeto de algoritmos com implementações Pascal e C, 4ª ed., 1999.
 
@@ -95,7 +95,7 @@ int verifica_fila_cheia(Fila *f) {
 Vamos agora pensar na função que insere um item no final da fila. Devido a implementação circular, isso requer alguns cuidados 
 a mais em relação a pilha. Considere o cenário abaixo:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/fila_circular_funcionamento.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/fila_circular_funcionamento.png)
 
 - Ao adicionar o item de chave 8, o último passa a ser 4;
 - Ao adicionar o item de chave 19, o último passa a ser 5;
@@ -161,7 +161,7 @@ void imprime(Fila* f) {
 ### Desenfileirar
 A mesma lógica pode ser usada na função de remoção do início para calcular o novo índice do primeiro item da fila:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/fila_circular_remo%C3%A7%C3%A3o.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/fila_circular_remo%C3%A7%C3%A3o.png)
 
 - Ao remover o item de chave 20, o primeiro passa a ser 4:
 
