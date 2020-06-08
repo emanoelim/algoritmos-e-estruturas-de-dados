@@ -24,7 +24,7 @@ Temos uma estrutura do tipo Item para guardar o item e seus campos relevantes, u
 e um ponteiro para quem será a próxima célula da pilha e uma estrutura do tipo Pilha, que contém nada mais do que um 
 ponteiro para a célula que é o topo da pilha. Podemos visualizar da seguinte forma:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/pilha_encadeada.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/pilha_encadeada.png)
 
 Para este TAD pilha vamos criar funções para:
 
@@ -40,7 +40,7 @@ Para este TAD pilha vamos criar funções para:
 A criação da pilha vazia também fica muito parecida com a criação da lista. Se ela está vazia, não existe um endereço para o qual 
 “topo” deve apontar. Assim, podemos fazer “topo” apontar para NULL.
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/pilha_vazia.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/pilha_vazia.png)
 
 Isto pode ser implementado da seguinte forma:
 
@@ -64,7 +64,7 @@ int verifica_pilha_vazia(Pilha *p) {
 
 A função de empilha fica semelhante a inserção no início de uma lista lista. A próxima célula da nova célula adicionada será aquela que era o topo. O topo, por sua vez, agora deve apontar para a nova célula:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/empilha.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/empilha.png)
 
 ```c
 void empilha(Pilha *p, int chave) {
@@ -91,7 +91,7 @@ void imprime(Pilha *p) {
 
 Para a função desempilha, precisamos “desligar” a célula que estava no topo e ligar o ponteiro topo com a próxima (desde que a pilha não esteja vazia):
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/desempilha.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/desempilha.png)
 
 ```c
 void desempilha(Pilha *p) {
