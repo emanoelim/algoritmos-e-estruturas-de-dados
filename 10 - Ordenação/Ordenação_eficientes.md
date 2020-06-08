@@ -14,7 +14,7 @@ O algoritmo merge sort divide o vetor de entrada em duas metades e assim sucessi
 inteiros: {14, 7, 3, 12, 9, 11, 6, 2}. A figura abaixo mostra este processo de divisão, onde: p = primeiro item, q = item do meio
 e r = último item.
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/merge_divisao.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/merge_divisao.png)
 
 (Adaptado de https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/overview-of-merge-sort)
 
@@ -173,7 +173,7 @@ void merge(int arr[], int p, int q, int r) {
 
 Aplicando a ideia de intercalação no vetor {14, 7, 3, 12, 9, 11, 6, 2}, teremos:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/merge_conquista.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/merge_conquista.png)
 
 (Adaptado de https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/overview-of-merge-sort)
 
@@ -222,7 +222,7 @@ Chegaremos em T(1), o caso base, quando 2<sup>k</sup> = n. Isso quer dizer que k
 
 Analisando o número de chamadas, veremos que em qualquer caso o algoritmo fará até log<sub>2</sub>n chamadas, conforme a figura:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/arvore_merge.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/arvore_merge.png)
 
 (Fonte: https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/overview-of-merge-sort)
 
@@ -278,7 +278,7 @@ void quick_sort(int v[], int p, int r) {
 
 Na figura abaixo, os itens em azul representam itens que foram pivôs nas etapas anteriores, portanto não serão examinados na etapa atual.
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/quick.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/quick.png)
 
 (Fonte: https://www.khanacademy.org/computing/computer-science/algorithms/quick-sort/a/overview-of-quicksort)
 
@@ -318,7 +318,7 @@ No melhor caso, quando o problema sempre se divide ao meio, teremos até log<sub
 
 No piror caso, teremos até n chamadas empilhadas, como mostra a ilustração:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/arvore_pior_caso_quick.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/arvore_pior_caso_quick.png)
 
 (Fonte: https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/analysis-of-merge-sort)
 
