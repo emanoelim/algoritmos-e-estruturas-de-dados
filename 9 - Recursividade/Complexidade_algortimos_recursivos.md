@@ -73,7 +73,7 @@ T(n) = **O(n)**
 
 Quanto a complexidade de espaço, vamos analisar a pilha de chamadas da função. Considere, por exemplo, que n = 5:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/pilha_fatorial_rec.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/pilha_fatorial_rec.png)
 
 Sendo n = 5, é possível ver no passo 5, que até n chamadas da função ocupam a pilha de execução do programa. Cada chamada precisa guardar informações como endereço de retorno, parâmetros e variáveis locais da função. Para guardar essas informações o custo sempre será o mesmo (constante). O que vai definir a complexidade de espaço da função é a quantidade máxima de chamadas ocupando a pilha, que é O(n).
 
@@ -183,33 +183,33 @@ T(n) = 2<sup>0</sup>c + 2<sup>1</sup>c + 2<sup>2</sup>c + ... + 2<sup>n - 1</sup
 
 Ou seja, teremos um somatório:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/sum1.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/sum1.png)
 
 Para facilitar a resolução vamos considerar que m = n - 1, assim o somatório pode ser reescrito como:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/sum2.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/sum2.png)
 
 Vamos aplicar a técnica da perturbação para resolver o somatório. Esta técnica consiste em "perturbar” o somatório adicionando um termo a mais e então reescrever o somatório como:
 - Primeiro termo + somatório dos próximos termos;
 - Último termo + somatório dos termos anteriores.
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/sum3.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/sum3.png)
 
 Sendo assim, é possível dizer que:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/sum4.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/sum4.png)
 
 Logo:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/sum5.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/sum5.png)
 
 Ou seja, a complexidade de tempo é fatorial, O(2<sup>n</sup>).
 
 A complexidade de espaço também pode ser analisada através da pilha de chamadas. Para n = 5:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/pilha_fib_2.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/pilha_fib_2.png)
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/pilha_fib_1.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/pilha_fib_1.png)
 
 Existem situações onde até n chamadas ocupam a pilha, portanto, pode-se dizer que a complexidade de espaço é O(n).
 
