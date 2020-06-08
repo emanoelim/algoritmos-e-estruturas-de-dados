@@ -17,11 +17,11 @@ executar cada entrada, analisando os resultados posteriormente (montando gráfic
 
 Medidas de tempo:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/medidas_tempo.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/medidas_tempo.png)
 
 Gráfico gerado:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/grafico.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/grafico.png)
 
 A partir da montagem do gráfico, pode-se perceber que o algoritmo apresenta um crescimento de tempo exponencial.
 
@@ -134,7 +134,7 @@ g(n) = n²
 ```
 Apesar de inicialmente f(n) gerar valores maiores, existe um valor de n, a partir do qual g(n) passa a gerar resultados sempre maiores, como mostra o gráfico:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/comportamento_assintotico.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/comportamento_assintotico.png)
 
 (Gráfico gerado em: https://www.wolframalpha.com/examples/mathematics/plotting-and-graphics/)
 
@@ -161,7 +161,7 @@ Até agora vimos que uma função com termo n² domina assintóticamente uma fun
 
 Pois se estas funções forem plotadas em um gráfico, teremos o seguinte comportamento:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/bigO.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/bigO.png)
 
 Fonte da imagem: https://www.bigocheatsheet.com/
 
