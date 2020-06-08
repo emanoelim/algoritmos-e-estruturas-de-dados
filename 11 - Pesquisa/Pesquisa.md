@@ -44,7 +44,7 @@ Aplica-se quando o array já está ordenado. Considerando um array em ordem cres
 
 Exemplo:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/busca_binaria.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/busca_binaria.png)
 
 Exemplo de implementação iterativa em C:
 
