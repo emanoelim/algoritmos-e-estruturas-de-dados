@@ -18,7 +18,7 @@ struct lista {
 ```
 Que pode ser visualizada pela figura abaixo:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/duplamente_encadeada.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/duplamente_encadeada.png)
 
 ### Criação de lista vazia
 Se a lista está vazia, o ponteiro primeira deve guardar NULL. Assim, este método fica semelhante a criação da lista vazia simples:
@@ -45,7 +45,7 @@ int verifica_lista_vazia(Lista *l) {
 - a célula que era a primeira terá a nova célula como sua anterior (exceto em uma lista que estava vazia, pois a primeira seria o NULL);
 - o ponteiro primeira agora deve apontar para a nova célula.
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/duplamente_encadeada_insere_ini.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/duplamente_encadeada_insere_ini.png)
 
 Pensando nisso, podemos implementar a função da seguinte forma:
 ```c
@@ -67,7 +67,7 @@ void inserir_inicio(Lista *l, int chave) {
 - anterior da nova célula será aquela que era a última;
 - a célula que era a última terá a nova como próxima.
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/duplamente_encadeada_insere_fim.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/duplamente_encadeada_insere_fim.png)
 
 Obs.: se a lista estiver vazia, a inserção deve se comportar como a inserção no início;
 
@@ -109,7 +109,7 @@ Se a célula foi encontrada (se a função não retornou NULL) deve-se fazer o s
 - a próxima da célula encontrada deve ser a nova célula;
 - a célula que era a próxima da que foi encontrada deve ter a nova célula como anterior (caso a próxima não seja igual a NULL).
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/duplamente_encadeada_insere_meio.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/duplamente_encadeada_insere_meio.png)
 
 Implementação:
 
@@ -167,22 +167,22 @@ Em uma lista é permitido remover itens de qualquer lugar (início, meio ou fim)
 - o ponteiro primeira deve apontar para a próxima da que vai ser removida;
 - a célula que passa a ser a primeira deve ter NULL como anterior.
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/duplamente_encadeada_remove_ini.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/duplamente_encadeada_remove_ini.png)
 
 **Remover do meio**: se o item encontrado está em uma posição do meio da lista:
 - a anterior à célula que vai ser removida deve receber a próxima dela;
 - a próxima à célula que vai ser removida deve receber a anterior dela.
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/duplamente_encadeada_remove_meio.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/duplamente_encadeada_remove_meio.png)
 
 **Remover do fim**: se o item encontrado é o último da lista:
 - basta fazer com que a anterior da célula que vai ser removida receba a próxima dela.
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/duplamente_encadeada_remove_fim.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/duplamente_encadeada_remove_fim.png)
 
 **Cuidado**: se a célula que vai ser removida é a única célula da lista, a anterior é NULL e a próxima também é NULL (NULL não tem campo anterior nem campo próxima), portanto basta fazer com que primeira aponte para NULL;
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/duplamente_encadeada_remove_unica_celula.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/duplamente_encadeada_remove_unica_celula.png)
 
 
 Teremos o seguinte código:
