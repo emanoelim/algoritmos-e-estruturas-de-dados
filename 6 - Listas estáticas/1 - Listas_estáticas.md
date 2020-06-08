@@ -2,7 +2,7 @@
 
 Uma lista é um tipo de estrutura de dados que guarda uma sequência de itens:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/lista.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/lista.png)
 
 onde x1 é o primeiro item da lista, x2 é o segundo item da lista e assim por diante até xn, que é o último item da lista. O *n* 
 representa o tamanho da lista. Em uma lista, xi é o item que precede o item xi + 1 e que sucede o item xi - 1. Chamamos xi de 
@@ -34,7 +34,7 @@ Os métodos mais comuns de implementar listas são por meio de arranjos ou vetor
 Seguindo a lógica de vetores, os itens da lista são armazenados em posições contíguas de memória. Considere, por exemplo, 
 uma lista de 6 itens:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/lista_est%C3%A1tica_mem%C3%B3ria.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/lista_est%C3%A1tica_mem%C3%B3ria.png)
 
 Ainda seguindo a ideia de vetores, é preciso definir um tamanho máximo para a lista e deve-se respeitar este tamanho.
 
@@ -191,7 +191,7 @@ nenhum item da lista, mostramos uma mensagem de erro informando essa situação 
 a lista deslocando todos os itens após o índice do item que desejamos remover. Precisamos também decrementar o campo último, 
 para indicar que uma posição foi liberada. Por exemplo:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/remover_lista_estatica.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/remover_lista_estatica.png)
 
 ### Verificação de lista vazia
 Outra função que pode ser útil no TAD Lista é verificar se a lista está vazia. Para isto basta verificar se o campo último ainda é igual a -1 (valor que ele recebeu no momento da criação da lista vazia):
