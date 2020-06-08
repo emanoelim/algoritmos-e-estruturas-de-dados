@@ -25,7 +25,7 @@ struct fila {
 
 Podemos visualizar a fila assim:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/fila_encadeada.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/fila_encadeada.png)
 
 Vamos criar um TAD fila com funções para:
 - criar fila vazia;
@@ -39,7 +39,7 @@ Vamos criar um TAD fila com funções para:
 
 Para criar a fila vazia, tanto ini quanto fim devem apontar para NULL:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/fila_vazia.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/fila_vazia.png)
 
 ```c
 Fila * cria_fila_vazia() {
@@ -70,11 +70,11 @@ Além disso, existem duas situações que precisam ser tratadas:
 
 - Se a fila está vazia, o ponteiro "ini" deve apontar para a nova célula (ela será a única célula, portando será a última e também a primeira):
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/enfileira_vazia.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/enfileira_vazia.png)
 
 - Se a fila não está vazia, aquela que é a última célula (a que é apontada por "fim") deve apontar para a nova célula:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/enfileira_nao_vazia.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/enfileira_nao_vazia.png)
 
 ```c
 
@@ -112,12 +112,12 @@ Para desenfileirar um item, primeiramente será necessário ver se a fila não e
 que foi adicionada menos recentemente, ou seja, a célula apontada por "ini". O ponteiro "ini" deve agora apontar para a célula 
 que era a próxima da primeira célula:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/desenfileira.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/desenfileira.png)
 
 Antes de finalizar temos que tomar cuidado para ver se a fila não ficou vazia após a remoção. Caso tenha ficado vazia, é necessário
 fazer "fim" apontar para NULL:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/desenfileira_fica_vazia.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/desenfileira_fica_vazia.png)
 
 ```c
 void desenfileira(Fila *f) {
