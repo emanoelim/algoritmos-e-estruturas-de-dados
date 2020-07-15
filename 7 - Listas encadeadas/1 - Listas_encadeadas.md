@@ -196,7 +196,7 @@ Quando o item a ser removido é o primeiro, basta fazer com que o primeiro passe
 
 Quando o item a ser removido está no meio ou no fim da lista, precisamos encontrar quem é o item anterior daquele que será removido, para ligar o anterior com o próximo:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/remo%C3%A7%C3%A3o_meio_lista.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/remo%C3%A7%C3%A3o_meio_lista.png)
 
 Portanto, vamos criar uma função preparada para lidar com estes 3 tipos de remoção:
 
