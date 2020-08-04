@@ -303,7 +303,7 @@ opção, pois não haverá falta nem excesso de memória.
 visto que inserções e remoções no final da lista tem um baixo custo (não é preciso fazer nenhum deslocamento, diferente de 
 inserções e remoções no meio da lista).
 
-# Materiais recomendados
+# Referências
 
 - Série de vídeos sobre listas prof. André Backes: https://www.youtube.com/watch?v=S6rOYN-UiAA
 
