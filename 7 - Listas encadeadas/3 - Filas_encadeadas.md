@@ -150,7 +150,7 @@ void libera_fila(Fila *f) {
 }
 ```
 
-# Materiais recomendados
+# Referências
 
 - Vídeo aulas sobre filas encadeadas do canal Linguagem C Programação Descomplicada, com prof. André Backes:
 https://www.youtube.com/watch?v=4YXnrKJCWrE
