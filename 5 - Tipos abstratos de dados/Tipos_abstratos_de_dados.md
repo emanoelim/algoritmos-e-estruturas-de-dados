@@ -493,3 +493,6 @@ p->x = 10;
 Ao tentar fazer isso irá ocorrer um erro. A atribuição só poderá ser feita através da função criar_ponto(), por exemplo.
 
 Perceba que se você decidir mudar algo na estrutura ou otimizar o funcionamento de alguma função, somente o arquivo ponto.c irá precisar ser recompilado. O arquivo onde estão as implementações do usuário do seu TAD não vai ser afetado.
+
+# Referências
+- Vídeo aula sobre TADs prof. André Backes: https://www.youtube.com/watch?v=bryesHll0vY
