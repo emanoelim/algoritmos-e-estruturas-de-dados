@@ -302,7 +302,8 @@ Ex.: ( [ ) ]
 
 A pilha resultante não está vazia, então a expressão não está bem formada.
 
-# Materiais recomendados
+# Referências
 
 - Capítulo sobre estruturas de dados básicas do livro Projeto De Algoritmos Com Implementações Em Pascal E C - Nivio Ziviani.
+- Artigo sobre notação reversa polonesa: https://pt.wikipedia.org/wiki/Nota%C3%A7%C3%A3o_polonesa_inversa
 - Aplicação interativa sobre funcionamento de pilha: https://www.cs.usfca.edu/~galles/visualization/StackArray.html. 
