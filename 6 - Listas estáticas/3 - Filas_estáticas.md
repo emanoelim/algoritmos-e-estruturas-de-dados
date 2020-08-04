@@ -194,6 +194,6 @@ void desenfileira(Fila* f) {
 }
 ```
 
-# Materiais recomendados
+# Referências
 - Capítulo sobre estruturas de dados básicas do livro Projeto De Algoritmos Com Implementações Em Pascal E C - Nivio Ziviani.
 - Aplicação interativa sobre funcionamento de fila: https://www.cs.usfca.edu/~galles/visualization/QueueArray.html
