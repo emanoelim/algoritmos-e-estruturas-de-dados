@@ -146,6 +146,6 @@ void libera_matriz(int **m, int n_linhas) {
 - Se o código for extenso e a matriz for usada somente no começo, assim que se termina de usá-la, a memória ocupada por ela pode ser liberada.
 - Se cada linha é alocada dinamicamente, é possível até mesmo ter uma “matriz” onde cada linha possui um tamanho diferente, otimizando espaço.
 
-# Materiais recomendados
+# Referências
 
 - Vídeo aula sobre alocação dinâmica de matriz do prof. André Backes: https://youtu.be/W4vbwEJn11U
