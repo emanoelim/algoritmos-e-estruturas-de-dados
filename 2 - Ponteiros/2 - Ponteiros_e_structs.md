@@ -51,7 +51,7 @@ int main(void) {
 
 Um erro irá acontecer, uma vez que o ponteiro c2 não possui um campo chamado “numero”. Ele possui apenas um endereço. O campo “numero” faz parte do conteúdo guardado no endereço apontado pelo ponteiro c2:
 
-![alt text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/ponteiro_struct.png)
+![alt text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/ponteiro_struct.png)
 
 Por isso, antes de tentar alterar o valor de um campo, é necessário fazer uma operação de deferência para acessar o conteúdo apontado por c2. Se simplesmente fizermos isso:
 
