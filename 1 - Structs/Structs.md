@@ -457,7 +457,7 @@ int main(void) {
 
 ```
 
-# Links recomendados
+# Referências
 
 * Video aulas professor André Backes: [https://www.youtube.com/watch?v=MatsUCe5uZw](https://www.youtube.com/watch?v=MatsUCe5uZw)
     
