@@ -122,7 +122,7 @@ void libera_pilha(Pilha *p) {
 }
 ```
 
-# Materiais recomendados
+# Referências
 
 - Vídeo aulas sobre pilhas encadeadas do canal Linguagem C Programação Descomplicada, com prof. André Backes: 
 https://www.youtube.com/watch?v=9GGJH2sjOac
