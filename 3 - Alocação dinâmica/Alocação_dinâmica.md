@@ -182,3 +182,5 @@ void main() {
     printf("%s", i);
 }
 ```
+# Referências
+- Paulo Feofiloff: https://www.ime.usp.br/~pf/algoritmos/aulas/aloca.html
