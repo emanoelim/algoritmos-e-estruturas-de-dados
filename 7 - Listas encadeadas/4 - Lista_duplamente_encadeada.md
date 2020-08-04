@@ -240,3 +240,6 @@ Listas duplamente encadeadas são usadas por aplicações que exigem navegação
 - Utilizada por players para avançar ou voltar músicas, vídeos, etc;
 - Utilizada por programas de tem opção de desfazer e refazer (mantém uma lista de estados);
 - Utilizada por programas que precisam manter uma lista do que foi usado mais recentemente;
+
+# Referências
+- Vídeo aula sobre listas duplamente encadeadas prof. André Backes: https://www.youtube.com/watch?v=pWh_nJ66Rrk
