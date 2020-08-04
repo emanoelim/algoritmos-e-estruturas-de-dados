@@ -248,7 +248,7 @@ arranjos/vetores;
 - Usa mais memória, pois além do item, precisa guardar um ponteiro para a próxima célula.
 - Quando se usa uma lista estática, ao utilizar um item da lista, toda a lista é carregada na memória cache, então quando algum outro item da lista precisar ser acessado, o acesso será mais rápido. Na lista encadeada, os itens ficam em blocos de memória independentes, então cada vez que um novo item precisar ser acessado ele terá que ser carregado.
 
-# Links recomentados
+# LReferências
 - Série de vídeos sobre lista encadeada canal Linguagem C Programação Descomplicada: https://www.youtube.com/watch?v=0BDMqra4D94
 - Valgrind - ferramenta para monitorar o uso da memória, entre outros: http://valgrind.org/docs/manual/QuickStart.html 
 - Animação de uma lista encadeada: http://www.cs.armstrong.edu/liang/animation/web/LinkedList.html
