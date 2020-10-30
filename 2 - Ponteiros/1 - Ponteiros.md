@@ -10,7 +10,7 @@ char c = 'a';
 Além de estar associada a um tipo, um nome e um valor, uma variável também está associada a um endereço de memória.
 O desenho abaixo traz a representação da memória de um computador, onde cada retângulo representa 1 byte. À esquerda de cada retângulo está o seu endereço de memória.
 
-![alt text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/representacao_memoria.png)
+![alt text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/representacao_memoria.png)
 
 Quando a variável:
 
@@ -20,7 +20,7 @@ char c = 'a';
 
 é declarada, ela é guardada em algum lugar da memória do computador, por exemplo:
 
-![alt text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/memoria_char.png)
+![alt text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/memoria_char.png)
 
 Uma variável do tipo char ocupa apenas 1 byte, portanto, no exemplo acima, a variável “c” ocupa a posição 1000. Dizemos então, que o endereço de “c” é 1000.
 
@@ -32,7 +32,7 @@ int n = 10;
 
 Uma variável do tipo int, na maioria dos computadores atuais, ocupa 4 bytes:
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/memoria_int.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/memoria_int.png)
 
 No exemplo acima, a variável “n” ocupa os endereços 1001, 1002, 1003 e 1004. Quando uma variável ocupa mais do que um endereço na memória, dizemos que o seu endereço é onde ela começa, ou seja, o primeiro endereço ocupado por ela. Neste exemplo, endereço de memória da variável “n” é 1001. 
 
@@ -152,7 +152,7 @@ p = &n;
 
 Como “p” guarda o endereço da variável “n”, podemos dizer que **“p” aponta para “n”**. 
 
-![all text](https://github.com/emanoelim/algoritmos_e_ed/blob/master/img/memoria_ponteiro.png)
+![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/memoria_ponteiro.png)
 
 No código abaixo, os dois últimos printf irão imprimir o mesmo valor, que é o endereço de “n”. O endereço será um número inteiro, que pode ser um número grande. Por isso, usamos “%ld” no printf, de long int.
 
