@@ -362,6 +362,7 @@ int main() {
 }
 ```
 É possível ver que ao adicionar uma unidade ao endereço guardado por p, temos a posição seguinte do vetor. Ao diminuir uma unidade, tempos a posição anterior do vetor, como exemplificado pela figura:
+
 ![all text](http://codingfox.com/wp-content/uploads/2014/01/clip_image001_00002.gif)
 
 Fonte da imagem: https://codingfox.com/14-13-sending-address-of-array-as-argument/
