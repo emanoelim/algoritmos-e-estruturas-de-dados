@@ -40,11 +40,17 @@ Na função principal temos o objetivo de somar 3 números. Para isso é chamada
 Pilha de execução do programa acima:
 
 ![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/pilha_exe_1.png)
+
 ![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/pilha_exe_2.png)
+
 ![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/pilha_exe_3.png)
+
 ![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/pilha_exe_4.png)
+
 ![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/pilha_exe_5.png)
+
 ![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/pilha_exe_6.png)
+
 ![all text](https://github.com/emanoelim/algoritmos_e_estruturas_de_dados/blob/master/img/pilha_exe_7.png)
 
 Para simplicar, cada chamada de função foi representada por um retângulo na pilha. Na verdade, cada chamada é composta por um *frame* que contém os parâmetros da função, suas variáveis locais e endereço de retorno (para que a função soma_aux(), por exemplo, saiba que tem que retornar a resposta do cálculo para a função soma()).
